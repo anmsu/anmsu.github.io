@@ -16,8 +16,6 @@ urls:
       url: /collab
     - text: Outreach & Media
       url: /media
-    - text: Shop
-      url : /shop
     - text: Contact
       url : /contact
 
