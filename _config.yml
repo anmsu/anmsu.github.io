@@ -22,8 +22,8 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: self_talking.png
-author: A proxy for a Collaboration Mascot?
+#author_logo: self_talking.png
+#author: A proxy for a Collaboration Mascot?
 author_bio: The goal of "Undisclosed Collaboration" is to use and farther develop the tools of ____ in an effort to _____
 author_email: "AOL.com"
 author_location: somewhere in spacetime
