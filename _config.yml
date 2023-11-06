@@ -64,10 +64,10 @@ author_project_details:
                 project_description: Lives in a Pineapple under the Sea-Quark Effects
                 project_url: www.spongebob.com
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: homer.jpg
+                project_title: Homer
+                project_description: Factorization
+                project_url: https://en.wikipedia.org/wiki/Quantum_field_theory
                 visibility: true
 
 # social links
