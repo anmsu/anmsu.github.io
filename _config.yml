@@ -29,7 +29,7 @@ author_email: "AOL.com"
 author_location: somewhere in spacetime
 author_website_url: "www."
 typewrite-text: Feel like a short mission statement for the collaboration could go here
-hero_cover_img: collider_cover_art_doe # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: collider_cover_art_doe.jpeg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
