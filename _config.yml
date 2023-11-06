@@ -60,8 +60,8 @@ author_education_details:
 # Projects
 author_project_details:
               - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
+                project_title: Spongebob
+                project_description: Lives in a Pineapple under the Sea-Quark Effects
                 project_url: https://gamershub.in
                 visibility: true
               - project_thumbnail: hack4r.PNG
