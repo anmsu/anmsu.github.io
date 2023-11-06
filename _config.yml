@@ -26,11 +26,11 @@ urls:
 
 author_logo: self_talking.png
 author: A proxy for a Collaboration Mascot?
-author_bio: Except Itll be the Winning logo
+author_bio: The goal of "Undisclosed Collaboration" is to use and farther develop the tools of ____ in an effort to _____
 author_email: "AOL.com"
 author_location: somewhere in spacetime
 author_website_url: "www."
-typewrite-text: Feel like a mission statement for the collaboration could go here
+typewrite-text: Feel like a short mission statement for the collaboration could go here
 hero_cover_img: equations.gif # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
