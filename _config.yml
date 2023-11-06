@@ -66,7 +66,7 @@ author_project_details:
                 visibility: true
               - project_thumbnail: homer.jpg
                 project_title: Homer
-                project_description: Factorization
+                project_description: Wants to understand factorization, but has lived under a rock the last 30 years.
                 project_url: https://en.wikipedia.org/wiki/Quantum_field_theory
                 visibility: true
 
