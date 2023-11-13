@@ -2,15 +2,37 @@
 title: For Collaborators
 layout: blog
 ---
-# Projects
-author_project_details:
-              - project_thumbnail: spongebob.jpeg
-                project_title: Spongebob
-                project_description: Lives in a Pineapple under the Sea-Quark Effects
-                project_url: www.spongebob.com
-                visibility: true
-              - project_thumbnail: patrick_hammer.jpg
-                project_title: Patrick
-                project_description: Wants to understand factorization, but has lived under a rock the last 30 years.
-                project_url: https://en.wikipedia.org/wiki/Quantum_field_theory
-                visibility: true
+ </div>
+  <div class="col-lg-8">
+    {% if site.author_bio %}
+    <div class="card">
+      <h1 class="card-title">About</h1>
+      <p>{{ site.author_bio }}</p>
+    </div>
+    {% endif %} {% if site.show_author_project_details == true %}
+    <div id="author_projects" class="card">
+      <h1 class="card-title">Collaborators</h1>
+      <br />
+      {% for project in site.author_project_details %} {% if project.visibility
+      == true %}
+      <div class="row" id="project-card">
+        <div class="col-md-6">
+          <img
+            src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
+            class="project-img"
+          />
+        </div>
+        <div class="col-md-4 center">
+          <h4 class="experience-title">{{ project.project_title }}</h4>
+          <h6 class="experience-info">{{ project.project_info}}</h6>
+          <p class="experience-desc">{{ project.project_description }}</p>
+          <p>
+            <a class="project-link" href="{{project.project_url}}"
+              >{{ project.project_url}}</a
+            >
+          </p>
+        </div>
+      </div>
+      <br />
+      {% endif %} {% endfor %}
+    </div>
