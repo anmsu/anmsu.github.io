@@ -55,18 +55,6 @@ author_education_details:
                 description: Bachelor of Technology
                 visibility: true
 
-# Projects
-author_project_details:
-              - project_thumbnail: spongebob.jpeg
-                project_title: Spongebob
-                project_description: Lives in a Pineapple under the Sea-Quark Effects
-                project_url: www.spongebob.com
-                visibility: true
-              - project_thumbnail: patrick_hammer.jpg
-                project_title: Patrick
-                project_description: Wants to understand factorization, but has lived under a rock the last 30 years.
-                project_url: https://en.wikipedia.org/wiki/Quantum_field_theory
-                visibility: true
 
 # social links
 #twitter_username: johndoe
